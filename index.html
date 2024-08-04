@@ -5,21 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ridex - Rent your favourite car</title>
-
-  <!-- 
-    - favicon
-  -->
+  <title>Ridex - Rent your favourite car</title
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
@@ -27,10 +15,6 @@
 </head>
 
 <body>
-
-  <!-- 
-    - #HEADER
-  -->
 
   <header class="header" data-header>
     <div class="container">
@@ -99,61 +83,45 @@
   <main>
     <article>
 
-      <!-- 
+      <!--
         - #HERO
       -->
 
       <section class="section hero" id="home">
-        <div class="container">
-
+        <div class="hero-video">
           <div class="hero-content">
             <h2 class="h1 hero-title">The easy way to takeover a lease</h2>
-
             <p class="hero-text">
               Live in New York, New Jerset and Connecticut!
             </p>
           </div>
-
+          <form action="" class="hero-form">
+            <div class="input-wrapper">
+              <label for="input-1" class="input-label">Car, model, or brand</label>
+              <input type="text" name="car-model" id="input-1" class="input-field"
+                placeholder="What car are you looking?">
+            </div>
+            <div class="input-wrapper">
+              <label for="input-2" class="input-label">Max. monthly payment</label>
+              <input type="text" name="monthly-pay" id="input-2" class="input-field" placeholder="Add an amount in $">
+            </div>
+            <div class="input-wrapper">
+              <label for="input-3" class="input-label">Make Year</label>
+              <input type="text" name="year" id="input-3" class="input-field" placeholder="Add a minimal make year">
+            </div>
+            <button type="submit" class="btn">Search</button>
+          </form>
           <div class="hero-banner">
             <video width="100%" height="100%" autoplay loop muted>
               <source src="./assets/video/carsquad2.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
-
-          <form action="" class="hero-form">
-
-            <div class="input-wrapper">
-              <label for="input-1" class="input-label">Car, model, or brand</label>
-
-              <input type="text" name="car-model" id="input-1" class="input-field"
-                placeholder="What car are you looking?">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="input-2" class="input-label">Max. monthly payment</label>
-
-              <input type="text" name="monthly-pay" id="input-2" class="input-field" placeholder="Add an amount in $">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="input-3" class="input-label">Make Year</label>
-
-              <input type="text" name="year" id="input-3" class="input-field" placeholder="Add a minimal make year">
-            </div>
-
-            <button type="submit" class="btn">Search</button>
-
-          </form>
-
         </div>
+
       </section>
 
-
-
-
-
-      <!-- 
+      <!--
         - #FEATURED CAR
       -->
 
@@ -571,7 +539,7 @@
 
 
 
-      <!-- 
+      <!--
         - #GET START
       -->
 
@@ -658,7 +626,7 @@
 
 
 
-      <!-- 
+      <!--
         - #BLOG
       -->
 
@@ -886,7 +854,7 @@
 
 
 
-  <!-- 
+  <!--
     - #FOOTER
   -->
 
@@ -1052,12 +1020,12 @@
 
 
 
-  <!-- 
+  <!--
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
 
-  <!-- 
+  <!--
     - ionicon link
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
